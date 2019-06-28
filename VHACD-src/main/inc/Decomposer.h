@@ -10,15 +10,18 @@
 #include <vector>
 
 #include "VHACD.h"
+#include "OBJ_Loader.h"
 
 using namespace std;
 using namespace VHACD;
+using namespace objl;
 
 class Decomposer{
     public:
         Decomposer();
         ~Decomposer();
 
-        bool LoadOBJ(const string&, vector<float>&, vector<int>&, IVHACD::IUserLogger&);
+    private:
+        IVHACD* ivhacd;
 
 };
