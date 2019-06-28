@@ -16,6 +16,10 @@ using namespace std;
 using namespace VHACD;
 using namespace objl;
 
+/**
+ * @brief Decomposer class definition
+ * 
+ */
 class Decomposer{
     public:
         Decomposer();
@@ -23,5 +27,11 @@ class Decomposer{
 
     private:
         IVHACD* ivhacd;
+
+        /**
+         * @brief Loader 
+         *  OBJL - See README for Reference
+         */
+        Loader loader;
 
 };
