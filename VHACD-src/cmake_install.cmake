@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/mad/Documents/GO-VHACD/VHACD-src/VHACD_Lib/cmake_install.cmake")
   include("/Users/mad/Documents/GO-VHACD/VHACD-src/test/cmake_install.cmake")
+  include("/Users/mad/Documents/GO-VHACD/VHACD-src/main/cmake_install.cmake")
 
 endif()
 
