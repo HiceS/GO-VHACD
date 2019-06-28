@@ -1,0 +1,174 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dccbf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dccbf.dir/build.make CMakeFiles/cmTC_dccbf.dir/build
+Building C object CMakeFiles/cmTC_dccbf.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_dccbf.dir/CheckSymbolExists.c.o   -c /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_2'
+  return ((int*)(&CL_VERSION_2_2))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_dccbf.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_dccbf/fast] Error 2
+
+File /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46cb3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_46cb3.dir/build.make CMakeFiles/cmTC_46cb3.dir/build
+Building C object CMakeFiles/cmTC_46cb3.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_46cb3.dir/CheckSymbolExists.c.o   -c /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_1'
+  return ((int*)(&CL_VERSION_2_1))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_46cb3.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_46cb3/fast] Error 2
+
+File /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fece/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3fece.dir/build.make CMakeFiles/cmTC_3fece.dir/build
+Building C object CMakeFiles/cmTC_3fece.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_3fece.dir/CheckSymbolExists.c.o   -c /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_0'
+  return ((int*)(&CL_VERSION_2_0))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3fece.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_3fece/fast] Error 2
+
+File /Users/mad/Documents/v-hacd/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa0c0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aa0c0.dir/build.make CMakeFiles/cmTC_aa0c0.dir/build
+Building C object CMakeFiles/cmTC_aa0c0.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_aa0c0.dir/CheckSymbolExists.c.o   -c /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_2'
+  return ((int*)(&CL_VERSION_2_2))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_aa0c0.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_aa0c0/fast] Error 2
+
+File /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_179d3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_179d3.dir/build.make CMakeFiles/cmTC_179d3.dir/build
+Building C object CMakeFiles/cmTC_179d3.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_179d3.dir/CheckSymbolExists.c.o   -c /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_1'
+  return ((int*)(&CL_VERSION_2_1))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_179d3.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_179d3/fast] Error 2
+
+File /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11209/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_11209.dir/build.make CMakeFiles/cmTC_11209.dir/build
+Building C object CMakeFiles/cmTC_11209.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_11209.dir/CheckSymbolExists.c.o   -c /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_0'
+  return ((int*)(&CL_VERSION_2_0))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_11209.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_11209/fast] Error 2
+
+File /Users/mad/Documents/GO-VHACD/VHACD-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

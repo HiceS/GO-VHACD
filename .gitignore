@@ -10,3 +10,13 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+Makefile
+
+.vscode
+bin
+*.obj
+*.wrl
+log.txt
+v1.txt
+.DS_Store
