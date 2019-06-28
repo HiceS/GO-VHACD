@@ -1,15 +1,20 @@
-#include "VHACD.h"
+#include "Decomposer.h"
 #include "oclHelper.h"
-
-using namespace VHACD;
-using namespace std;
 
 int main (){
     
     return 0;
 }
-/** 
-bool LoadOBJ(const string& fileName, vector<float>& points, vector<int>& triangles, IVHACD::IUserLogger& logger)
+
+Decomposer::Decomposer(){
+
+}
+
+Decomposer::~Decomposer(){
+
+}
+
+bool Decomposer::LoadOBJ(const string& fileName, vector<float>& points, vector<int>& triangles, IVHACD::IUserLogger& logger)
 {
     const unsigned int BufferSize = 1024;
     FILE* fid = fopen(fileName.c_str(), "r");
@@ -79,4 +84,3 @@ bool LoadOBJ(const string& fileName, vector<float>& points, vector<int>& triangl
     }
     return true;
 }
-*/
