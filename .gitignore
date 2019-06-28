@@ -5,6 +5,11 @@
 *.so
 *.dylib
 
+*.vcxproj.*
+*.vcxproj
+*.sln
+*.cmake
+
 # Test binary, build with `go test -c`
 *.test
 
