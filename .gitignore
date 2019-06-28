@@ -20,3 +20,5 @@ bin
 log.txt
 v1.txt
 .DS_Store
+CMakeFiles\*
+CMakeFiles
