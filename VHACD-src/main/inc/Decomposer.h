@@ -22,7 +22,7 @@ using namespace objl;
  */
 class Decomposer{
     public:
-        Decomposer();
+        Decomposer(string Path);
         ~Decomposer();
 
     private:
@@ -33,5 +33,6 @@ class Decomposer{
          *  OBJL - See README for Reference
          */
         Loader loader;
+        void loadMesh(string Path);
 
 };

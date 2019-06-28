@@ -1,16 +1,20 @@
-#include "Decomposer.h"
+#include "../inc/Decomposer.h"
 
 int main (){
-    Decomposer decomp;
+    Decomposer decomp("v3.obj");
     return 0;
 }
 
-Decomposer::Decomposer(){
-    bool loading = loader.LoadFile("v1.obj");
-    cout << "Loading : " << "v1.obj" << endl;
-    cout << loading << endl;
+Decomposer::Decomposer(string Path){
+    loadMesh(Path);
 }
 
 Decomposer::~Decomposer(){
+}
 
+void Decomposer::loadMesh(string Path){
+    bool loading = loader.LoadFile(Path);
+    if (loading){
+
+    }
 }
